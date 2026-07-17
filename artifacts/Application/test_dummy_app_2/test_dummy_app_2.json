@@ -50,7 +50,7 @@
 					"data": [
 						{
 							"fieldNo": "b0b193e0-e072-4cd2-cf66-b414c3227ffa",
-							"fieldName": "PAG_MainShell",
+							"fieldName": "PAG_MainShelll",
 							"fieldParent": "16bf652b-8e0d-4731-a5f3-e3d4e0693b79",
 							"fieldType": "sap.m.Page",
 							"script": "",
@@ -9759,7 +9759,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "26.07.17.1445",
+	"ver": "26.07.17.1455",
 	"application": "test_dummy_app_2",
 	"title": "",
 	"description": "",
