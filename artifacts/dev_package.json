@@ -7,7 +7,7 @@
 	},
 	"name": "Test_Deploy_Package",
 	"description": null,
-	"ver": "26.07.17.1316",
+	"ver": "26.07.17.1320",
 	"enableCICD": true,
 	"apps": [
 		{
