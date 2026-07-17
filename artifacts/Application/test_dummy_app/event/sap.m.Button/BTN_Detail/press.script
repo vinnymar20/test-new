@@ -1,3 +1,0 @@
-APP_SelectedPO = "MUL/TM1E/PO/25/09/00239";
-
-NAV_Main.to(PAG_PO_OpenDetail);
