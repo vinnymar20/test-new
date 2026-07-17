@@ -1,14 +1,14 @@
 {
-	"id": "1ee7ef59-fe11-4fd3-b4f7-2af91da52437",
-	"createdAt": "2026-07-17T05:09:12.622Z",
+	"id": "9d4205a2-f5a3-4395-9ee0-df5cd894abd7",
+	"createdAt": "2026-07-17T07:38:53.295Z",
 	"createdBy": "vrm@gefami.co.id",
 	"git": {
 		"remote": "https://github.com/vinnymar20/test-new.git",
-		"branch": "DEV"
+		"branch": "feature/dashboard"
 	},
-	"name": "test-new",
+	"name": "test_new_2",
 	"description": null,
-	"ver": "26.07.17.1314",
+	"ver": "26.07.17.1443",
 	"enableCICD": true,
 	"internalReadOnly": false,
 	"oeVersion": null,
@@ -16,8 +16,8 @@
 	"roles": [],
 	"apps": [
 		{
-			"id": "7b06a31a-4665-49d8-86fd-a347583697d4",
-			"application": "test_dummy_app",
+			"id": "ee34b679-0d55-422d-b420-925d14c7fa92",
+			"application": "test_dummy_app_2",
 			"title": "",
 			"description": ""
 		}
