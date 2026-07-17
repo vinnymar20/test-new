@@ -9759,7 +9759,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "26.07.17.1455",
+	"ver": "26.07.17.1508",
 	"application": "test_dummy_app_2",
 	"title": "",
 	"description": "",
@@ -9800,6 +9800,6 @@
 	"printWidth": null,
 	"generateVersionOnActivation": false,
 	"activationHistoryCount": 0,
-	"package": "9d4205a2-f5a3-4395-9ee0-df5cd894abd7",
+	"package": "1ee7ef59-fe11-4fd3-b4f7-2af91da52437",
 	"apis": []
 }
