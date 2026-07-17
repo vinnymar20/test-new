@@ -26,7 +26,7 @@ async function axiosPost(url: string, data: unknown, config: Record<string, unkn
         }, ...config});
 }
 
-async function readFile( 
+async function readFile(
     path: fs.PathLike,
     options?: { encoding?: BufferEncoding; flag?: string } | BufferEncoding,
 ): Promise<string | Buffer> {
