@@ -2,6 +2,8 @@ name: Example deploy workflow
 
 on:
   push:
+    branches:
+      - DEV
 
 jobs:
 
@@ -12,18 +14,28 @@ jobs:
     strategy:
       matrix:
         node-version: [18.x]
-
+    
     steps:
-    - uses: actions/checkout@v2
-    - name: Installing node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
 
-    - run: npm install
+      - uses: actions/checkout@v4
 
-    # Comment out to run the deploy script when you push to the repository.
-    #- run: npm run deploy
+      - run: echo "Workflow berhasil"
+
+      - run: node --version
+
+      - run: npm install
+
+    # steps:
+    # - uses: actions/checkout@v2
+    # - name: Installing node.js ${{ matrix.node-version }}
+    #   uses: actions/setup-node@v1
+    #   with:
+    #     node-version: ${{ matrix.node-version }}
+
+    # - run: npm install
+
+    # # Comment out to run the deploy script when you push to the repository.
+    # - run: npm run deploy
     #  env:
     #    DXP_OE_SERVER_URL: ${{ secrets.CDCI_STAGING_URL }}
     #    DXP_OE_SERVER_TOKEN: ${{ secrets.CDCI_STAGING_TOKEN }}
