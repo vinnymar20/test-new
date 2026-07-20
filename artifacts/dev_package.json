@@ -8,7 +8,7 @@
 	},
 	"name": "test-new",
 	"description": null,
-	"ver": "26.07.20.1452",
+	"ver": "26.07.20.1455",
 	"enableCICD": true,
 	"internalReadOnly": false,
 	"oeVersion": null,
