@@ -25,6 +25,19 @@ jobs:
 
     - run: npm install
 
+    # Install SonarScanner
+    - name: Install SonarScanner
+      run: npm install -g sonarqube-scanner
+
+      # SonarQube Scan
+    - name: SonarQube Scan
+      run: |
+          sonar-scanner \
+            -Dsonar.projectKey=test-project \
+            -Dsonar.sources=. \
+            -Dsonar.host.url=${{ secrets.SONAR_HOST_URL }} \
+            -Dsonar.token=${{ secrets.SONAR_TOKEN }}
+
     # Comment out to run the deploy script when you push to the repository.
     - run: npm run deploy
       env:
