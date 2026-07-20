@@ -16,6 +16,12 @@
 	"roles": [],
 	"apps": [
 		{
+			"id": "ee34b679-0d55-422d-b420-925d14c7fa92",
+			"application": "test_dummy_app_2",
+			"title": "",
+			"description": ""
+		},
+		{
 			"id": "7b06a31a-4665-49d8-86fd-a347583697d4",
 			"application": "test_dummy_app",
 			"title": "",
